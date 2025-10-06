@@ -154,6 +154,63 @@ h3, h4, h5, h6{
     color: var(--color-light);
 }
 
+/* TEAM SECTION */
+.team-member {
+  background: #fff;
+  border-radius: 15px;
+  padding: 50px;
+  transition: all 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.team-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #027c89;
+}
+
+.team-member h4 {
+  font-weight: 700;
+  color: #027c89;
+}
+
+.team-member p {
+  font-size: 0.95rem;
+}
+
+/* Botón mini de WhatsApp */
+.btn-whatsapp-mini {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-whatsapp-mini i {
+  margin-right: 6px;
+}
+
+.btn-whatsapp-mini:hover {
+  background-color: #1ebc5b;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.team-member a {
+  color: #027c89;
+  text-decoration: none;
+}
+
 /* ALL SECTIONS */
 .section-title{
     font-weight: 700;
